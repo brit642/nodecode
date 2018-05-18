@@ -18,7 +18,7 @@ runGetRequest6();
 runGetRequest7();
 runGetRequest8();
 runGetRequest9();
-runDatabaseQuery();
+//runDatabaseQuery();
 
 // Does a GET request to ip.jsontest.com
 function runGetRequest() {
