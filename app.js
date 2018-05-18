@@ -24,7 +24,7 @@ runDatabaseQuery();
 function runGetRequest() {
     
     //sample URL.
-    var url = "http://129.157.179.180:3000/fighters/45/0/green/brit642";
+    var url = "http://129.157.179.180:3000/reactorCore/320/650/green/brit642";
     request(url, function(error, response, body) {
         if(!error) {
             console.log(body);
