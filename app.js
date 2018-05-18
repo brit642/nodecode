@@ -9,7 +9,7 @@ var app = express();
 app.use(express.static('public'));
 console.log('Exact name: ' + process.env.ORA_INSTANCE_NAME);
 runGetRequest();
-runGetRequest1();
+/*runGetRequest1();
 runGetRequest2();
 runGetRequest3();
 runGetRequest4();
@@ -17,8 +17,8 @@ runGetRequest5();
 runGetRequest6();
 runGetRequest7();
 runGetRequest8();
-runGetRequest9();
-//runDatabaseQuery();
+runGetRequest9()*/
+runDatabaseQuery();
 
 // Does a GET request to ip.jsontest.com
 function runGetRequest() {
