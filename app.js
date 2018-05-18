@@ -167,9 +167,9 @@ function runDatabaseQuery() {
 function connectToDatabase(host, user, password, database) {
     var connectionJson = {
         host: host,
-        user: Captain,
-        password: welcome1,
-        database: deathstar,
+        user: user,
+        password: password,
+        database: database,
         timezone: 'utc'
     };
     return mysql.createConnection(connectionJson);
