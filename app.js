@@ -2,7 +2,7 @@ eg: // My microservice!
 var express = require('express');
 var request = require('request');
 var mysql = require('mysql');
-var connection = connectToDatabase('myHost', 'myUser', 'myPassword', 'myDatabase');
+var connection = connectToDatabase('129.157.179.180', 'Captain', 'welcome1', 'deathstar');
 
 var app = express();
 
@@ -164,15 +164,15 @@ function runDatabaseQuery() {
 };
 
 // Returns a connection object to the database.
-function connectToDatabase(host, user, password, database) {
-    var connectionJson = {
-        host: host,
-        user: user,
-        password: password,
-        database: database,
-        timezone: 'utc'
-    };
-    return mysql.createConnection(connectionJson);
+ function connectToDatabase(host, user, password, database) {
+     var connectionJson = {
+         host: "129.157.179.180",
+         user: "Captain",
+         password: "welcome1",
+         database: "deathstar",
+         timezone: 'utc'
+     };
+     return mysql.createConnection(connectionJson);
 };
 
 module.exports = app;
