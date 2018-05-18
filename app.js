@@ -154,7 +154,7 @@ function runGetRequest9() {
 
 //Executes a SQL query
 function runDatabaseQuery() {
-    connection.query("SELECT * FROM SampleTable", function(error, rows, fields) {
+    connection.query("SELECT * FROM SecretTable", function(error, rows, fields) {
         if(!error) {
             console.log(rows);
         } else {
